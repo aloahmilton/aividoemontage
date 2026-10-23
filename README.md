@@ -1,9 +1,9 @@
-# aividoemontage
+# AiVideoMontage
 AI Video Montage project
 
 ## Overview
 
-**aividoemontage** is a project focused on AI-powered video montage and editing.  
+**AiVideoMontage** is a project focused on AI-powered video montage and editing.  
 It aims to help create automatic or assisted video montages using artificial intelligence — for example cutting, sequencing, transitions, and style matching driven by AI models.
 
 ## Features (planned / in progress)
