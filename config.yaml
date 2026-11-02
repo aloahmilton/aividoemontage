@@ -1,0 +1,4 @@
+# OpenMontage default config
+# Copy from upstream OpenMontage; full config in aloahmilton/OpenMontage
+project:
+  name: aividoemontage
