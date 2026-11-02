@@ -1,32 +1,30 @@
 # AiVideoMontage
-AI Video Montage project
 
-## Overview
+AI Video Montage — based on **OpenMontage** (open-source agentic video production system).
 
-**AiVideoMontage** is a project focused on AI-powered video montage and editing.  
-It aims to help create automatic or assisted video montages using artificial intelligence — for example cutting, sequencing, transitions, and style matching driven by AI models.
+## Full source code
 
-## Features (planned / in progress)
+The **complete OpenMontage codebase** is on this account at:
 
-- AI-assisted clip selection and sequencing
-- Automatic transitions and timing
-- Style / mood matching from reference videos or prompts
-- Support for common video formats
-- Local or cloud processing options
+### → https://github.com/aloahmilton/OpenMontage
 
-## Getting started
+That repo has the full tree on `main` (lib, tools, skills, pipelines, backlot, remotion-composer, docs, tests, etc.).
+
+This `aividoemontage` repo holds a smaller set of setup files and points you to the full project.
+
+## Quick start (full project)
 
 ```bash
-git clone https://github.com/aloahmilton/aividoemontage.git
-cd aividoemontage
+git clone https://github.com/aloahmilton/OpenMontage.git
+cd OpenMontage
+make setup
 ```
 
-More setup instructions will be added as the project grows.
+Then open it in your AI coding assistant (Claude Code, Cursor, Copilot, etc.) and describe the video you want.
 
-## Contributing
+## Files in this repo
 
-Contributions, ideas, and feedback are welcome. Feel free to open issues or pull requests.
+- `setup.py`, `requirements*.txt`, `config.yaml` — basic package setup
+- `AGENTS.md`, `CONTRIBUTING.md`, `render-demo.sh` — pointers / helpers
 
-## License
-
-License details will be added later.
+For the real production pipelines, agent skills, and tools, use **[aloahmilton/OpenMontage](https://github.com/aloahmilton/OpenMontage)**.
